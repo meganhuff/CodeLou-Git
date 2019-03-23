@@ -1,0 +1,45 @@
+/*Navigation CSS*/
+
+.main-nav {
+  background-color: black;
+}
+
+.main-nav {
+    font-size: 1.25em;
+    font-weight: bold;
+    font:green;    
+}
+
+.name {
+    font-size: 1.75em;
+    color: red;
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+
+h2 {
+    font-size: 72px;
+    color: red;
+    text-align: center;
+  }
+
+p {
+  font-size: 20px;
+}
+
+.card {
+    text-align: center;
+  }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
