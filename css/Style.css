@@ -26,7 +26,7 @@
     padding:10px;
 }
 
-/*Resize Images*/
+/*Resize Images and Format Text*/
 
 .news {
     display: block;
@@ -35,9 +35,14 @@
     margin-right: auto; 
   }
 
+  .intro {
+    font-size: 30px;
+    text-align: center;
+  }
+
 .announcement {
     display: block;
-    width: 40%;
+    width: 100%;
   }
 
 
@@ -47,10 +52,7 @@ h2 {
     text-align: center;
   }
 
-.intro {
-  font-size: 30px;
-  text-align: center;
-}
+
 
 
 
