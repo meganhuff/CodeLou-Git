@@ -14,7 +14,6 @@ body {
     list-style-type: none;
     text-decoration: none;
     display: inline;
-    float: left;
   }
 
   .search {
@@ -36,7 +35,7 @@ body {
 h1 {
   color: #2c5032;
   background-color: gold;
-}
+}	
 
 h2 {
   font-size: 40px;
@@ -46,8 +45,8 @@ h2 {
 }
 
 .tag {
-  width: 1335px;
-  height: 330px;
+  width: 400px;
+  height: 210px;
   border: 1px solid black;
   box-sizing: border-box;
   display: center; 
@@ -81,20 +80,6 @@ h2 {
     float: left;
   }
 
-/* Float four columns side by side */
-.one {
-  width: 50%;
-  padding: 0 10px;
-  float: left; 
-}
-
-.two {
-  width: 50%;
-  padding: 0 10px;
-  float: right; 
-}
-
-
 /* Style cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -119,3 +104,49 @@ h2 {
 /* ================================= 
   Media Queries
 ==================================== */
+@media (min-width: 769px) {
+  .nav,
+  .row {
+    display: flex;
+  }
+
+  .nav li{
+    display:inline-block;
+    text-align: center;
+    margin: 0 auto; 
+    width: 300px; 
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.tag {
+  width: 1335px;
+  height: 330px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: center; 
+  margin-top: 50px; 
+  background: lightgray;
+}
+
+}
+
+@media (min-width: 1025px) {
+  .nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.tag {
+  width: 1335px;
+  height: 330px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: center; 
+  margin-top: 50px; 
+  background: lightgray;
+}
