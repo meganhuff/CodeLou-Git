@@ -113,8 +113,12 @@ h2 {
   height: 200px;
 }
 
+/*Format Login Container*/
 
-
+div[id="container"] {
+  max-width: 500px;
+  text-align: center; 
+}
 
 /* ================================= 
   Media Queries
