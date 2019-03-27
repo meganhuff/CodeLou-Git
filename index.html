@@ -1,14 +1,102 @@
 <!DOCTYPE html>
     <html>
         <head>
-            links to CSS & JS go here
+            <meta charset="utf-8">
+            <title>XYC Company Intranet</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/style.css">
+            
+            </head>
         </head>
 
         <body>
-            <H1>Page Title</H1>
-                <div>
-                    <p>Content Here</p>
-                    <p>content here</p>
+
+          <!--/navigation bar-->       
+          <div class="main-header">
+              <h1 class="name"><h1>XYZ Net</h1> 
+            </div>
+              <div class="search">
+                <input type="text" placeholder="Search XYZ Net..">
+              </div>
+            
+
+          <div class="dropdown">
+              <button onclick="myFunction()" class="menu">Menu</button>
+                <div id="myDropdown" class="menu-content">
+                        <ul class="nav">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="soon.html">Resource Center</a></li>
+                          <li><a href="soon.html">News</a></li>
+                          <li><a href="soon.html">Gallery</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
                 </div>
+          </div>
+          
+            
+                <div class="tag">
+                    <img class="news" src="img/company-info.png" alt="Company Information">
+                    <p class="intro">Welcome to XYZ Net! Your resource for all things XYZ related.</p>
+                </div>
+                <div id="container">
+                    <form class="form-login">
+                        <label for="email">Email:</label> 
+                        <input type="text" id="email">
+                  
+                        <label for="password">Password:</label>
+                        <input type="password" id="password"> 
+                        <input type="submit" value="Login">
+                      </form>
+                    </div> 
+                <div class="announcements">
+                        <img class="announcement" src="img/Announcements.png" alt="Announcements">
+                        <p>Did you know? Anthem is now allowing the option to TeleDoc. For more information, please see the Resource Center or contact HR Generalist John Smith.</p>
+                        
+                        <p>Sales Representative of the Year: Megan Huff. Congratulations!!</p>
+                </div> 
+                
+                <div class="row">
+                    <div class="primary col">
+                        <div class="card">
+                        <Section>
+                          <h2>News</h2>
+                        </Section>
+                        
+                      
+                      <h3>Corporate News</h3>
+                      <p>Congratulations to John Smith for being promoted to VP of Sales.</p>
+                      <p>The AR group has undergone a reorganization and has formed new teams. This will not only allow us to serve you better, but our external customers as well.  </p>
+                      <a href="soon.html"> Past News </a>
+                      <h3>CSG News</h3>
+                      <p>Congratulations to Steve John for his promotion to Service Manager.</p>
+                      <p>The Lexington branch will be moving to a new location next quarter.</p>
+                      <a href="soon.html"> Past News </a>
+                      </div>
+                    </div>
+                      
+                    <div class="secondary col">
+                        <div class="card">
+                        <Section>
+                              <h2>Strategy Teams</h2>
+                        </Section>
+                            
+                          
+                          <h3>Community</h3>
+                          <p>Project XYZ Donation: Several employees attended the donation ceremony this year at ABC Corporation on March 20, 2019. For pictures, please view the Gallery page.</p>
+                    
+                          <h3>People</h3>
+                          <p>Learnng & Development has made great improvements these past few months. Keep an eye out for new program launches.</p>
+
+                          <h3>Solutions</h3>
+                          <p>Get Ready, ELC 21 is about to roll out! Testing is currently underway and should be completed by the end of March.</p>
+                          </div>
+                 </div>
+        <div class="main-footer">                   
+        <footer class="footer">
+            <span>&copy;Copyright 2019, Megan Huff</span>
+        </footer>
+      </div> 
+            <script src="js/jquery.js"></script>
+            <script src="js/script.js"></script>
         </body>
     <html>
