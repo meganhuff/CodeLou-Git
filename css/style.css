@@ -149,10 +149,13 @@
 ==================================== */
 @media (min-width: 769px) {
     .row,
-    .col
-    .body {
+    .col {
       display: flex;
     }
+    
+    h1 {
+      color: #2c5032;
+      background-color: goldenrod;
   
     .nav{
       border:1px solid #ccc;
